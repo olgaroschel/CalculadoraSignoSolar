@@ -33,6 +33,8 @@ function calcularSigno() {
         resultado = "Capricórnio";
     } else if ((dia >= 20 && mes === 'janeiro') || (dia <= 18 && mes === 'fevereiro')) {
         resultado = "Aquário";
+    } else if (dia >= 30 && mes == 'fevereiro') {
+        resultado = "Data inválida";
     } else if ((dia >= 19 && mes === 'fevereiro') || (dia <= 20 && mes === 'março')) {
         resultado = "Peixes";
     } else {
